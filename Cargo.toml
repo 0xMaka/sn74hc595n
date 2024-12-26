@@ -1,0 +1,23 @@
+[package]
+name         = "sn74hc595n"
+version      = "0.1.0"
+authors      = ["Maka <makagucci@gmx.com>"]
+edition      = "2024"
+license      = "MIT"
+
+repository   = "https://github.com/0xmaka/rustberry-pico/sn74hc595n"
+description  = "A quick and dirty high level driver for interacting with an 8 bit shift register."
+keywords     = ["embedded", "rasberry", "pico", "2040"]
+
+[lib]
+name         = "sn74hc595n"
+path         = "src/lib.rs"
+
+[dependencies]
+cortex-m-rt  = "0.7.5"
+critical-section = "1.1.3"
+panic-halt   = "1.0.0"
+embedded-hal = "1.0"
+rp-pico      = "0.9"
+
+
