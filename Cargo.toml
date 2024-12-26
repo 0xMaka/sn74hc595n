@@ -5,7 +5,7 @@ authors      = ["Maka <makagucci@gmx.com>"]
 edition      = "2024"
 license      = "MIT"
 
-repository   = "https://github.com/0xmaka/rustberry-pico/sn74hc595n"
+repository   = "https://github.com/0xmaka/sn74hc595n"
 description  = "A quick and dirty high level driver for interacting with an 8 bit shift register."
 keywords     = ["embedded", "rasberry", "pico", "2040"]
 
