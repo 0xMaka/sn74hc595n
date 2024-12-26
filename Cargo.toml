@@ -7,7 +7,7 @@ license      = "MIT"
 
 repository   = "https://github.com/0xmaka/sn74hc595n"
 description  = "A quick and dirty high level driver for interacting with an 8 bit shift register."
-keywords     = ["embedded", "rasberry", "pico", "2040"]
+keywords     = ["embedded", "raspberry", "pico", "rp2040"]
 
 [lib]
 name         = "sn74hc595n"
